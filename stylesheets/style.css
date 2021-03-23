@@ -1,0 +1,40 @@
+html,
+
+body {
+	position: relative;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#navbar {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width 150px;
+	height 100%;
+	border-right: solid;
+	border-color: black;
+	height: 100vh;
+}
+
+#main-doc {
+	margin-left: 200px;
+	padding: 20px;
+	margin-bottom: 110px;
+}
+
+.main-section {
+	height: 100vh;
+}
+
+#welcome-section {
+	text-align: center;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+}
+
